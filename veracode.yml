@@ -19,7 +19,7 @@ veracode_static_scan:
   error_message: Veracode static scan faced a problem.
   policy: Veracode Recommended Medium + SCA
   create_code_scanning_alert: true
-  create_issue: false
+  create_issue: true
   issues:
     trigger: false
     commands:
